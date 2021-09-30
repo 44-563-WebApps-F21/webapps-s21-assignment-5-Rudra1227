@@ -14,6 +14,35 @@
 
 </head>
 <body>
+  <nav class="navbar navbar-expand-md navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Interesting Animals</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class = "collapse navbar-collapse" id = "navbarSupportedContent">
+        <ul class = "navbar-nav mr-auto">
+          <li class = "nav-item">
+            <a class = "nav-link active" aria-current = "page" href = "plane.html">Plane</a>
+          </li>
+          <li class = "nav-item">
+            <a class = "nav-link" href = "train.html">Train</a>
+          </li>
+        </ul>
+        <div class="dropdown">
+          <button  type="button" class="btn btn-success dropdown-toggle" data-bs-toggle="dropdown"
+          aria-expanded="false">
+          Dropdown
+      </button>
+      <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="plane.html">Plane</a></li>
+          <li class="dropdown-divider"></li>
+          <li><a class="dropdown-item" href="train.html">Train</a></li>
+      </ul>
+           </div>
+    </div>
+      </div>
+  </nav>
     <h3>Animals by Rudra Teja Annangi</h3>
     <p>My last name Letters are A,N,N,A,N,G </p>
     <div class = "container">
@@ -35,5 +64,164 @@
            </div> 
       </div> 
       <p>Second row breaks first.</p>
+</body>
+</html>
+<div class = "cotainer">
+  <img src = "nene.jpg" class = "img-fluid">
+  <img src = "Nightfish.jpg" class = "img-fluid">
+  <img src = "Adelie Penguin.jpg" class = "img-fluid">
+</div>
+
+<div class = "cotainer">
+  <img src = "nene.jp" class = "img-thumbnail">
+  <img src = "Nightfish.jpg" class = "img-thumbnail">
+  <img src = "Adelie Penguin.jpg" class = "img-thumbnail">
+</div>
+<div>
+<table class = "table table-success table-striped table-hover" style = "color: rgba(63, 76, 189, 0.027);background-color: rgba(202, 192, 159, 0);border-collapse: separate;">
+<caption>List of items by initaials</caption>
+<thead>
+<tr>
+  <th scope = "col">Letter</th>
+  <th scope = "col">Animal</th>
+  <th scope = "col">City</th>
+  <th scope = "col">Car</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <th scope = "row"><A></A></th>
+  <td>Adelie Penguin</td>
+  <td>Alaska</td>
+  <td>Acura</td>
+</tr>
+<tr>
+ <th scope = "row">N</th>
+ <td>Nigerian goat</td>
+ <td>Nigeria</td>
+ <td>Nissan</td>
+</tr>
+<tr>
+ <th scope = "row">N</th>
+ <td>Nemali</td>
+ <td>Nebraska</td>
+ <td>Nexon</td>
+</tr>
+<tr>
+ <th scope = "row">A</th>
+ <td>Narwhal</td>
+ <td>Newyork</td>
+ <td>nateyian</td>
+</tr>
+<tr>
+ <th scope = "row">N</th>
+ <td>Nightfish</td>
+ <td>Nebraska</td>
+ <td>Neli</td>
+</tr>
+<tr>
+ <th scope = "row">G</th>
+ <td>Graffie</td>
+ <td>Guntur</td>
+ <td>Gixar/td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<div class = "container">
+<h3>Button Styles</h3>
+<button type = "button" class = "btn btn-success">A</button>
+<button type = "button" class = "btn btn-secondary">N</button>
+<button type = "button" class = "btn btn-danger">N</button>
+<button type = "button" class = "btn btn-warning">A</button>
+<button type = "button" class = "btn btn-primary">A</button>
+<button type = "button" class = "btn btn-info">G</button>
+</div>
+
+<br>
+
+<div class = "container">
+<div class = "btn-toolbar">
+
+<div class = "btn-group ">
+<button type = "button" class = "btn btn-success">A</button>
+<button type = "button" class = "btn btn-success">N</button>
+<button type = "button" class = "btn btn-success">N</button>
+</div>
+
+<div class = "btn-group"  class = "btn-toolbar">
+<button type = "button" class = "btn btn-warning">N</button>
+<button type = "button" class = "btn btn-warning">A</button>
+</div>
+
+<div class = "btn-group">
+<button type = "button" class = "btn btn-danger">G</button>
+</div>
+</div>
+</div>
+<br>
+
+<div class = "dropdown">
+<button class = "btn btn-secondary dropdown-toggle" type = "button" id = "dropdownMenuButton1" data-bs-toggle = "dropdown" aria-expanded = "false">
+Dropdown button
+</button>
+<ul class = "dropdown-menu" aria-labelledby = "dropdownMenuButton1">
+<li><a class = "dropdown-item" href = "plane.html">Plane Page</a></li>
+<li><a class = "dropdown-item" href = "train.html">Train Page</a></li>
+</ul>
+</div>
+
+<br>
+<h2>Form</h2>
+<form>
+<div class="form-group">
+<label for="exampleInputEmail1" class="form-label">Email address</label>
+<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+<div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+</div>
+<div class="form-group">
+<label for="exampleInputPassword1" class="form-label">Animal</label>
+<input type="text" class="form-control" id="exampleInputPassword1" placeholder="Enter your animal">
+</div>
+<div class="form-check">
+<input type="checkbox" class="form-check-input" id="exampleCheck1">
+<label class="form-check-label" for="exampleCheck1">Sign up for newsletter? </label>
+</div>
+<button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+<br>
+<br>
+<br>
+<h2>Card Images</h2>
+<div class="container">
+<div class="card-group">
+<div class="card img-fluid col-sm-2" style="width: 300px">
+<img src="Adelie Penguin.jpg" class="card-img-top" alt="Adelie Penguin">
+<div class="card-body">
+ <h5 class="card-title">Adelie Penguin</h5>
+ <p class="card-text">Adélie penguins live on the Antarctic continent and on many small, surrounding coastal islands. They spend the winter offshore in the seas surrounding the </p>
+ <a href="https://www.nationalgeographic.com/animals/birds/facts/adelie-penguin" class="btn btn-primary">About Adelie Penguin</a>
+</div>
+</div>
+<div class="card img-fluid col-sm-2" style="width: 18rem">
+<img src="nene.jpg" class="card-img-top" alt="Nene">
+<div class="card-body">
+ <h5 class="card-title">Nene</h5>
+ <p class="card-text">The nene (Branta sandvicensis), also known as nēnē and Hawaiian goose, is a species of bird endemic to the Hawaiian Islands. The official bird of the state</p>
+ <a href="https://en.wikipedia.org/wiki/Nene_(bird)" class="btn btn-primary">Nene</a>
+</div>
+</div>
+<div class="card" style="width: 18rem">
+<img src="Nightfish.jpg" class="card-img-top" alt="Nightfish">
+<div class="card-body">
+ <h5 class="card-title">Nightfish</h5>
+ <p class="card-text">The nightfish (Bostockia porosa) is a species of freshwater ray-finned fish, a temperate perch from the family Percichthyidae which is endemic to .</p>
+ <a href="https://en.wikipedia.org/wiki/Aardvark" class="btn btn-primary">About Nightfish</a>
+</div>
+</div>
+</div>
+</div>
 </body>
 </html>
